@@ -1,4 +1,8 @@
 import type { Product } from '../store/useStore';
+import shirtWhiteGovinda from '../assets/shirt_white_govinda_1790012536213.jpg';
+import blouseMaggam from '../assets/blouse_maggam_1790012414191.jpg';
+import shirtBlackAyyappa from '../assets/shirt_black_ayyappa_1790012430402.jpg';
+import photoFrameZari from '../assets/photo_frame_zari_1790012456223.jpg';
 
 export const products: Product[] = [
   {
@@ -7,7 +11,7 @@ export const products: Product[] = [
     basePrice: 499,
     msrp: 799,
     description: 'Premium quality devotional shirt with intricate Govinda Namallu embroidery. Perfect for temple visits and sacred occasions.',
-    image: '/shirt_white_govinda_1790012536213.jpg',
+    image: shirtWhiteGovinda,
     badge: 'Bestseller',
     rating: 4.8,
     options: {
@@ -28,7 +32,7 @@ export const products: Product[] = [
     name: 'Royal Bridal Peacock Computer Maggam Blouse',
     basePrice: 1499,
     description: 'Exquisite computer maggam work featuring royal peacock motifs with premium zari. Designed to make your bridal look unforgettable.',
-    image: '/blouse_maggam_1790012414191.jpg',
+    image: blouseMaggam,
     badge: 'Bridal Special',
     rating: 4.9,
     options: {
@@ -49,7 +53,7 @@ export const products: Product[] = [
     name: 'Sabarimala Ayyappa Swamy Devotional Shirt',
     basePrice: 599,
     description: 'Jet black devotional shirt featuring sacred Ayyappa Swamy embroidery. Crafted for the holy Sabarimala pilgrimage with breathable fabric.',
-    image: '/shirt_black_ayyappa_1790012430402.jpg',
+    image: shirtBlackAyyappa,
     rating: 4.7,
     options: {
       sizes: [
@@ -68,7 +72,7 @@ export const products: Product[] = [
     name: 'Sri Venkateswara Swamy 3D Zari Photo Frame',
     basePrice: 1599,
     description: 'Divine 3D zari embroidered portrait of Lord Venkateswara. A magnificent addition to your pooja room or a perfect gifting choice.',
-    image: '/photo_frame_zari_1790012456223.jpg',
+    image: photoFrameZari,
     badge: 'Pooja Essential',
     rating: 5.0,
     options: {}

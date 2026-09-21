@@ -1,5 +1,7 @@
 import React from 'react';
+
 import { motion } from 'framer-motion';
+import blouseMaggam from '../assets/blouse_maggam_1790012414191.jpg';
 
 export const Hero: React.FC = () => {
   return (
@@ -60,7 +62,7 @@ export const Hero: React.FC = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-brand-maroon/10 border border-brand-gold/30 group">
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10" />
               <img 
-                src="/blouse_maggam_1790012414191.jpg" 
+                src={blouseMaggam}
                 alt="Bridal Maggam Blouse Showcase" 
                 className="w-full h-[400px] sm:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
               />
